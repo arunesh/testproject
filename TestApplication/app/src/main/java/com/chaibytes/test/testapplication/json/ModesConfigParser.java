@@ -9,9 +9,11 @@ public class ModesConfigParser {
     @SerializedName("version")
     @Expose
     private String version;
+
     @SerializedName("FailureLandingPage")
     @Expose
     private FailureLandingPage failureLandingPage;
+
     @SerializedName("modes")
     @Expose
     private Modes modes;
