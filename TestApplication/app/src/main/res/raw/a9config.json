@@ -1,0 +1,321 @@
+{
+	"version": "1.2",
+	"FailureLandingPage": {
+		"displayContent": [{
+				"title": "Barcode Scanning",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/Barcodes.png",
+				"actionURL": "https://www.amazon.com/b?node=17337160011",
+				"moduleId": "1",
+				"misc": ""
+			},
+			{
+				"title": "Handmade Gift Shop",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/HandMadeGiftShop.png",
+				"actionURL": "https://www.amazon.com/b?ie=UTF8&node=17296384011",
+				"moduleId": "3",
+				"misc": ""
+			},
+			{
+				"title": "Interesting Finds: Pets",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/DiscoverPetsInterestingFinds.png",
+				"actionURL": "https://www.amazon.com/stream/88d268c0-858f-4859-9b1a-7ecd8c6f1014/ref=strm_theme_pets?tag=mshop-android-att-phone-samsung-dream-g955u-pre-us-20&asCursor=WyIxLjgiLCJ0czEiLCIxNTA5NjQ4MDAwMDAwIiwiIiwiUzAwMTQ6MDpudWxsIiwiUzAwMTQ6MjoxIiwiUzAwMTQ6MDotMSIsIiIsIiIsIjAiLCJzdWIyIiwiMTUwOTY1ODM0MjM4OSIsImhmMS1zYXZlcyIsIjE1MDk2NTAxMDAwMDAiLCJ2MSIsIjE1MDk2NTg5MzI2MTAiLCJ2MSIsIjE1MDEwMTYzNDk2NTgiLCJ2MSIsIjE1MDk2NTQwODgwMTgiXQ%3D%3D&asCacheIndex=0&asYOffset=-148",
+				"moduleId": "5",
+				"misc": ""
+			},
+			{
+				"title": "Interesting Finds: Fun",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/InterestingFinds.png",
+				"actionURL": "https://www.amazon.com/stream/2ad85be4-a868-4c09-be6f-caa113ce00b3/ref=strm_theme_fun?tag=mshop-android-att-phone-samsung-dream-g955u-pre-us-20&asCursor=WyIxLjgiLCJ0czEiLCIxNTA5NjQ4MDAwMDAwIiwiIiwiUzAwMTg6MDpudWxsIiwiUzAwMTg6MjoxIiwiUzAwMTg6MDotMSIsIiIsIiIsIjAiLCJzdWIyIiwiMTUwOTY1ODM0MjM4OSIsImhmMS1zYXZlcyIsIjE1MDk2NTAxMDAwMDAiLCJ2MSIsIjE1MDk2NTg5MzI2MTAiLCJ2MSIsIjE1MDEwMTYzNDk2NTgiLCJ2MSIsIjE1MDk2NTQwODgwMTgiXQ%3D%3D&asCacheIndex=0&asYOffset=-302",
+				"moduleId": "6",
+				"misc": ""
+			},
+			{
+				"title": "Amazon LaunchPad",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/LaunchPad.png",
+				"actionURL": "https://www.amazon.com/s/browse/ref%3Dal_mapp_nav?ie=UTF8&node=12034488011&tag=mshop-android-att-phone-samsung-dream-g955u-pre-us-20",
+				"moduleId": "7",
+				"misc": ""
+			},
+			{
+				"title": "Amazon Exclusives",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/Home.png",
+				"actionURL": "https://www.amazon.com/s/browse/ref%3Dae_mfa?ie=UTF8&node=11024013011&tag=mshop-android-att-phone-samsung-dream-g955u-pre-us-20",
+				"moduleId": "8",
+				"misc": ""
+			},
+			{
+				"title": "Prime Wardrobe",
+				"type": "Image",
+				"duration": "0",
+				"sourceURL": "https://s3.amazonaws.com/camera-search-failure-landing-page/PrimeWardrobe.png",
+				"actionURL": "https://www.amazon.com/learn-more-prime-wardrobe/b?ie=UTF8&node=16122413011",
+				"moduleId": "9",
+				"misc": ""
+			}
+		]
+	},
+	"modes": {
+		"onBoardingTutorialVideoURL": "https://dn4p25lkulg7f.cloudfront.net/IntroVideoModes.mp4",
+		"localeSpecificTutorialVideoURLs": {
+			"IN": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_only.mp4",
+			"BR": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_only.mp4",
+			"AU": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_only.mp4",
+			"IT": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"DE": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"CA": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"UK": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"ES": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"MX": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"FR": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"JP": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4",
+			"CN": "https://dn4p25lkulg7f.cloudfront.net/OnboardingVideo_PS_GC.mp4"
+		},
+		"onBoardingTutorialImageURL": "https://dn4p25lkulg7f.cloudfront.net/IntroImageModes.jpg",
+		"onBoardingProductSearchSampleImageURL": "https://dn4p25lkulg7f.cloudfront.net/ProductSearchSample.png",
+		"onBoardingSearchResultsImageURL": "https://dn4p25lkulg7f.cloudfront.net/SearchResults.png",
+		"durationInDaysAfterWhichToPromptUserToSelectMode": "1",
+		"searchTimeOut": "10",
+		"searchTimeOutAfterGuidance": "5",
+		"accumulationTimeOut": "7",
+		"searchTimeOutForBarcodeMode": "14",
+		"searchTimeOutAfterGuidanceForBarcodeMode": "5",
+		"accumulationTimeOutForBarcodeMode": "7",
+		"photoUploadCropBufferPercentage": "10",
+		"photoUploadDelayTimer": "1"
+	},
+	"modesOrder": {
+		"default": {
+			"defaultModeId": "product_search",
+			"modeIdsList": ["product_search",
+				"barcode_scanner"
+			]
+		},
+		"US": {
+			"defaultModeId": "product_search",
+			"modeIdsList": ["apparelhome",
+				"product_search",
+				"barcode_scanner",
+				"smile_code",
+				"hardlines",
+				"augmented_reality"
+			]
+		}
+	},
+	"product_search": {
+		"modeId": "product_search",
+		"modeDisplayNameId": "product_search_mode_display_name",
+		"modeDescriptionId": "product_search_mode_description",
+		"smartStringIds": ["product_search_mode_smart_string_1", "product_search_mode_smart_string_2", "product_search_mode_smart_string_3", "product_search_mode_smart_string_4", "product_search_mode_smart_string_5"]
+	},
+	"augmented_reality": {
+		"modeId": "augmented_reality",
+		"modeDisplayNameId": "augmented_reality_mode_display_name",
+		"modeDescriptionId": "augmented_reality_mode_description",
+		"smartStringIds": []
+	},
+	"giftcard": {
+		"modeId": "giftcard",
+		"modeDisplayNameId": "giftcard_mode_display_name",
+		"modeDescriptionId": "giftcard_mode_description",
+		"smartStringIds": []
+	},
+	"package_xray": {
+		"modeId": "package_xray",
+		"modeDisplayNameId": "package_xray_mode_display_name",
+		"modeDescriptionId": "package_xray_mode_description",
+		"smartStringIds": []
+	},
+	"barcode_scanner": {
+		"modeId": "barcode_scanner",
+		"modeDisplayNameId": "barcode_scanner_mode_display_name",
+		"modeDescriptionId": "barcode_scanner_mode_description",
+		"smartStringIds": ["barcode_scanner_mode_smart_string_1", "barcode_scanner_mode_smart_string_2"]
+	},
+	"bookstore": {
+		"modeId": "bookstore",
+		"modeDisplayNameId": "bookstore_mode_display_name",
+		"modeDescriptionId": "bookstore_mode_description",
+		"smartStringIds": []
+	},
+	"smile_code": {
+		"modeId": "smile_code",
+		"modeDisplayNameId": "smile_code_mode_display_name",
+		"modeDescriptionId": "smile_code_mode_description",
+		"smartStringIds": []
+	},
+	"hardlines": {
+		"modeId": "hardlines",
+		"modeDisplayNameId": "hardlines_mode_display_name",
+		"modeDescriptionId": "hardlines_mode_description",
+		"smartStringIds": []
+	},
+	"apparelhome": {
+		"modeId": "apparelhome",
+		"modeDisplayNameId": "apparelhome_mode_display_name",
+		"modeDescriptionId": "apparelhome_mode_description",
+		"smartStringIds": []
+	},
+	"stringOverrides": {
+		"product_search_mode_display_name": {
+			"default": "Search with camera",
+			"US": {
+				"en_US": "Search with camera",
+				"es_US": "Buscar con cámara"
+			}
+		},
+		"product_search_mode_description": {
+			"default": "Search with your camera and find items to shop",
+			"US": {
+				"en_US": "Search with your camera and find items to shop",
+				"es_US": "Busque con su cámara y encuentre artículos para comprar"
+			}
+		},
+		"augmented_reality_mode_display_name": {
+			"default": "AR View",
+			"US": {
+				"en_US": "AR View",
+				"es_US": "Vista AR"
+			}
+		},
+		"augmented_reality_mode_description": {
+			"default": "Shop using Augmented Reality"
+		},
+		"giftcard_mode_display_name": {
+			"default": "Amazon giftcard"
+		},
+		"giftcard_mode_description": {
+			"default": "Redeem your Amazon gift card by scanning it"
+		},
+		"package_xray_mode_display_name": {
+			"default": "Scan package label",
+			"US": {
+				"en_US": "Scan package label",
+				"es_US": "Escanear etiqueta de paquete"
+			}
+		},
+		"package_xray_mode_description": {
+			"default": "Scan your Amazon package label to peek inside the shipment"
+		},
+		"barcode_scanner_mode_display_name": {
+			"default": "Scan barcodes",
+			"US": {
+				"en_US": "Scan barcodes",
+				"es_US": "Escanear códigos de barras"
+			}
+		},
+		"barcode_scanner_mode_description": {
+			"default": "Scan any barcode and view its reviews"
+		},
+		"bookstore_mode_display_name": {
+			"default": "Amazon Bookstore"
+		},
+		"bookstore_mode_description": {
+			"default": "Amazon Bookstore, scan any book"
+		},
+		"smile_code_mode_display_name": {
+			"default": "Scan SmileCode",
+			"US": {
+				"en_US": "Scan SmileCode",
+				"es_US": "Escanear SmileCode"
+			}
+		},
+		"smile_code_mode_description": {
+			"default": "Scan Amazon SmileCode to get special deals and surprises"
+		},
+		"hardlines_mode_display_name": {
+			"default": "Find Parts",
+			"US": {
+				"en_US": "Find Parts",
+				"es_US": "Encontrar piezas"
+			}
+		},
+		"hardlines_mode_description": {
+			"default": "Find exact size parts"
+		},
+		"apparelhome_mode_display_name": {
+			"default": "Shop by photos",
+			"US": {
+				"en_US": "Shop by photos",
+				"es_US": "Compre por fotos"
+			}
+		},
+		"apparelhome_mode_description": {
+			"default": "Shop using your saved photos"
+		},
+		"product_search_mode_smart_string_1": {
+			"default": "Point at a book",
+			"US": {
+				"en_US": "Point at a book",
+				"es_US": "Señalar un libro"
+			}
+		},
+		"product_search_mode_smart_string_2": {
+			"default": "Point at the cereal box",
+			"US": {
+				"en_US": "Point at the cereal box",
+				"es_US": "Señalar la caja de cereal"
+			}
+		},
+		"product_search_mode_smart_string_3": {
+			"default": "Point at a toy",
+			"US": {
+				"en_US": "Point at a book",
+				"es_US": "Señalar un libro"
+			}
+		},
+		"product_search_mode_smart_string_4": {
+			"default": "Point at supplements",
+			"US": {
+				"en_US": "Point at supplements",
+				"es_US": "Señalar un juguete"
+			}
+		},
+		"product_search_mode_smart_string_5": {
+			"default": "Point at a video game",
+			"US": {
+				"en_US": "Point at a video game",
+				"es_US": "Señalar un videojuego"
+			}
+		},
+		"barcode_scanner_mode_smart_string_1": {
+			"default": "Scan a barcode to reorder",
+			"US": {
+				"en_US": "Scan a barcode to reorder",
+				"es_US": "Escanear un código de barra para reordenar"
+			}
+		},
+		"barcode_scanner_mode_smart_string_2": {
+			"default": "Scan a barcode to read reviews",
+			"US": {
+				"en_US": "Scan a barcode to read reviews",
+				"es_US": "Escanear un código de barra para leer reseñas"
+			}
+		},
+		"bookstore_smart_string_1": {
+			"default": "Point at a book cover",
+			"US": {
+				"en_US": "Point at a book cover",
+				"es_US": "Señalar una tapa de libro"
+			}
+		},
+		"bookstore_smart_string_2": {
+			"default": "Point at a book to read reviews",
+			"US": {
+				"en_US": "Point at a book to read reviews",
+				"es_US": "Señalar un libro para leer las reseñas"
+			}
+		}
+	}
+}
