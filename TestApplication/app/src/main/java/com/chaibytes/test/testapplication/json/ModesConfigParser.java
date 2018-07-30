@@ -1,8 +1,18 @@
 
 package com.chaibytes.test.testapplication.json;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 public class ModesConfigParser {
 
@@ -11,7 +21,7 @@ public class ModesConfigParser {
     private String version;
 
     @SerializedName("FailureLandingPage")
-    @Expose
+    //@Expose
     private FailureLandingPage failureLandingPage;
 
     @SerializedName("modes")
@@ -22,31 +32,35 @@ public class ModesConfigParser {
     private ModesOrder modesOrder;
     @SerializedName("product_search")
     @Expose
-    private ProductSearch productSearch;
+    private IndividualModes productSearch;
     @SerializedName("augmented_reality")
     @Expose
-    private AugmentedReality augmentedReality;
+    private IndividualModes augmentedReality;
     @SerializedName("giftcard")
     @Expose
-    private Giftcard giftcard;
+    private IndividualModes giftcard;
     @SerializedName("package_xray")
     @Expose
-    private PackageXray packageXray;
+    private IndividualModes packageXray;
     @SerializedName("barcode_scanner")
     @Expose
-    private BarcodeScanner barcodeScanner;
+    private IndividualModes barcodeScanner;
     @SerializedName("bookstore")
     @Expose
-    private Bookstore bookstore;
+    private IndividualModes bookstore;
     @SerializedName("smile_code")
     @Expose
-    private SmileCode smileCode;
+    private IndividualModes smileCode;
     @SerializedName("hardlines")
-    @Expose
-    private Hardlines hardlines;
+    //@Expose
+    private IndividualModes hardlines;
     @SerializedName("apparelhome")
     @Expose
-    private Apparelhome apparelhome;
+    private IndividualModes apparelhome;
+
+    private List<String> smartStringIds = new LinkedList<>();
+    private Map<String, LocalizedName> smartStringIdMap = new HashMap<>();
+
     @SerializedName("stringOverrides")
     @Expose
     private StringOverrides stringOverrides;
@@ -83,77 +97,45 @@ public class ModesConfigParser {
         this.modesOrder = modesOrder;
     }
 
-    public ProductSearch getProductSearch() {
+    public IndividualModes getProductSearch() {
         return productSearch;
     }
 
-    public void setProductSearch(ProductSearch productSearch) {
-        this.productSearch = productSearch;
-    }
-
-    public AugmentedReality getAugmentedReality() {
+    public IndividualModes getAugmentedReality() {
         return augmentedReality;
     }
 
-    public void setAugmentedReality(AugmentedReality augmentedReality) {
-        this.augmentedReality = augmentedReality;
-    }
-
-    public Giftcard getGiftcard() {
+    public IndividualModes getGiftcard() {
         return giftcard;
     }
 
-    public void setGiftcard(Giftcard giftcard) {
-        this.giftcard = giftcard;
-    }
-
-    public PackageXray getPackageXray() {
+    public IndividualModes getPackageXray() {
         return packageXray;
     }
 
-    public void setPackageXray(PackageXray packageXray) {
-        this.packageXray = packageXray;
-    }
-
-    public BarcodeScanner getBarcodeScanner() {
+    public IndividualModes getBarcodeScanner() {
         return barcodeScanner;
     }
 
-    public void setBarcodeScanner(BarcodeScanner barcodeScanner) {
-        this.barcodeScanner = barcodeScanner;
-    }
-
-    public Bookstore getBookstore() {
+    public IndividualModes getBookstore() {
         return bookstore;
     }
 
-    public void setBookstore(Bookstore bookstore) {
-        this.bookstore = bookstore;
-    }
 
-    public SmileCode getSmileCode() {
+    public IndividualModes getSmileCode() {
         return smileCode;
     }
 
-    public void setSmileCode(SmileCode smileCode) {
-        this.smileCode = smileCode;
-    }
 
-    public Hardlines getHardlines() {
+    public IndividualModes getHardlines() {
         return hardlines;
     }
 
-    public void setHardlines(Hardlines hardlines) {
-        this.hardlines = hardlines;
-    }
 
-    public Apparelhome getApparelhome() {
+    public IndividualModes getApparelhome() {
         return apparelhome;
     }
 
-    public void setApparelhome(Apparelhome apparelhome) {
-        this.apparelhome = apparelhome;
-    }
 
     public StringOverrides getStringOverrides() {
         return stringOverrides;
@@ -161,6 +143,40 @@ public class ModesConfigParser {
 
     public void setStringOverrides(StringOverrides stringOverrides) {
         this.stringOverrides = stringOverrides;
+    }
+
+    public List<String> getSmartStringIds() {
+        return smartStringIds;
+    }
+
+    public void populateStringList() {
+        // Adding smart strings for each mode
+        smartStringIds.addAll(productSearch.getSmartStringIds());
+        //TODO: all for all modes
+//        smartStringIds.addAll(.getSmartStringIds());
+    }
+
+    public void addSmartStrings(Gson gsonParser, String configJson) {
+        populateStringList();
+        List<String> listOfSmartStrings = getSmartStringIds();
+
+        try {
+            JSONObject jsonObject = new JSONObject(configJson);
+
+            for (String smartId : listOfSmartStrings) {
+                LocalizedName smartIdName =
+                        gsonParser.fromJson(jsonObject.getString(smartId), LocalizedName.class);
+                smartStringIdMap.put(smartId, smartIdName);
+            }
+
+        } catch (JSONException ex) {
+            // Print some error message
+        }
+
+    }
+
+    public Map<String, LocalizedName> getSmartStringIdMap () {
+        return smartStringIdMap;
     }
 
 }

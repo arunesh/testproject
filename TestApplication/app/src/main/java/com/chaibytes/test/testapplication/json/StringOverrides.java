@@ -8,64 +8,64 @@ public class StringOverrides {
 
     @SerializedName("product_search_mode_display_name")
     @Expose
-    private ProductSearchModeDisplayName productSearchModeDisplayName;
+    private LocalizedName productSearchModeDisplayName;
     @SerializedName("product_search_mode_description")
     @Expose
-    private ProductSearchModeDescription productSearchModeDescription;
+    private LocalizedName productSearchModeDescription;
     @SerializedName("augmented_reality_mode_display_name")
     @Expose
-    private AugmentedRealityModeDisplayName augmentedRealityModeDisplayName;
+    private LocalizedName augmentedRealityModeDisplayName;
     @SerializedName("augmented_reality_mode_description")
     @Expose
-    private AugmentedRealityModeDescription augmentedRealityModeDescription;
+    private LocalizedName augmentedRealityModeDescription;
     @SerializedName("giftcard_mode_display_name")
     @Expose
-    private GiftcardModeDisplayName giftcardModeDisplayName;
+    private LocalizedName giftcardModeDisplayName;
     @SerializedName("giftcard_mode_description")
     @Expose
-    private GiftcardModeDescription giftcardModeDescription;
+    private LocalizedName giftcardModeDescription;
     @SerializedName("package_xray_mode_display_name")
     @Expose
-    private PackageXrayModeDisplayName packageXrayModeDisplayName;
+    private LocalizedName packageXrayModeDisplayName;
     @SerializedName("package_xray_mode_description")
     @Expose
-    private PackageXrayModeDescription packageXrayModeDescription;
+    private LocalizedName packageXrayModeDescription;
     @SerializedName("barcode_scanner_mode_display_name")
     @Expose
-    private BarcodeScannerModeDisplayName barcodeScannerModeDisplayName;
+    private LocalizedName barcodeScannerModeDisplayName;
     @SerializedName("barcode_scanner_mode_description")
     @Expose
-    private BarcodeScannerModeDescription barcodeScannerModeDescription;
+    private LocalizedName barcodeScannerModeDescription;
     @SerializedName("bookstore_mode_display_name")
     @Expose
-    private BookstoreModeDisplayName bookstoreModeDisplayName;
+    private LocalizedName bookstoreModeDisplayName;
     @SerializedName("bookstore_mode_description")
     @Expose
-    private BookstoreModeDescription bookstoreModeDescription;
+    private LocalizedName bookstoreModeDescription;
     @SerializedName("smile_code_mode_display_name")
     @Expose
-    private SmileCodeModeDisplayName smileCodeModeDisplayName;
+    private LocalizedName smileCodeModeDisplayName;
     @SerializedName("smile_code_mode_description")
     @Expose
-    private SmileCodeModeDescription smileCodeModeDescription;
+    private LocalizedName smileCodeModeDescription;
     @SerializedName("hardlines_mode_display_name")
-    @Expose
-    private HardlinesModeDisplayName hardlinesModeDisplayName;
+    //@Expose
+    private LocalizedName hardlinesModeDisplayName;
     @SerializedName("hardlines_mode_description")
-    @Expose
-    private HardlinesModeDescription hardlinesModeDescription;
+    //@Expose
+    private LocalizedName hardlinesModeDescription;
     @SerializedName("apparelhome_mode_display_name")
     @Expose
-    private ApparelhomeModeDisplayName apparelhomeModeDisplayName;
+    private LocalizedName apparelhomeModeDisplayName;
     @SerializedName("apparelhome_mode_description")
     @Expose
-    private ApparelhomeModeDescription apparelhomeModeDescription;
+    private LocalizedName apparelhomeModeDescription;
     @SerializedName("product_search_mode_smart_string_1")
     @Expose
-    private ProductSearchModeSmartString1 productSearchModeSmartString1;
+    private LocalizedName productSearchModeSmartString1;
     @SerializedName("product_search_mode_smart_string_2")
     @Expose
-    private ProductSearchModeSmartString2 productSearchModeSmartString2;
+    private LocalizedName productSearchModeSmartString2;
     @SerializedName("product_search_mode_smart_string_3")
     @Expose
     private ProductSearchModeSmartString3 productSearchModeSmartString3;

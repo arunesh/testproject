@@ -9,6 +9,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.chaibytes.test.testapplication.json.LocalizedName;
+import com.chaibytes.test.testapplication.json.LocalizedNameAdapter;
 import com.google.common.io.CharStreams;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -46,7 +48,9 @@ public class ModesConfigDownloaderUtil {
         }
 
         private ModesConfigDownloaderUtil(Context context) {
-            mGson = new GsonBuilder().create();
+            GsonBuilder builder = new GsonBuilder();
+            builder.registerTypeAdapter(LocalizedName.class, new LocalizedNameAdapter());
+            mGson = builder.create();
             mRequestQueue = Volley.newRequestQueue(context);
         }
 
